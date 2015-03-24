@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_add_house"
+        android:icon="@drawable/abc_btn_check_material"
+        yourapp:showAsAction="ifRoom"
+        android:title="Add house"/>
+    <item android:id="@+id/action_close"
+        android:icon="@drawable/abc_btn_radio_material"
+        android:title="Close"
+        yourapp:showAsAction="ifRoom" />
+</menu>
